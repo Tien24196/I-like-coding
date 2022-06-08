@@ -1,22 +1,24 @@
-* {
+* {    /* Universal selector with 0 padding and margin */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body {  /* Body of the web page */
     background-color: #d9dcd6;
 }
 
+/* Header content of the page */
 
-header {
+header {  /* formatting the header */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+/* Formatting header's elements */
+header h1 {  
     display: inline-block;
     font-size: 48px;
 }
@@ -47,7 +49,7 @@ a {
     text-decoration: none;
 }
 
-
+/* Formatting hero div */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +59,7 @@ a {
     background-position: center;
 }
 
+/* formatting main section */
 
 .content {
     width: 75%;
@@ -75,7 +78,7 @@ a {
     color: #ffffff;
 }
 
-#search-engine-optimization img, 
+#search-engine-optimization img,  /* formatting images in main content */
 #online-reputation-management img,
 #social-media-marketing img {
     max-height: 200px;
@@ -100,6 +103,7 @@ p {
     margin-left: 25px;
 }
 
+/* Aside elements formatting */
 
 .benefits {
     margin-right: 20px;
@@ -132,7 +136,7 @@ h3 {
     max-width: 150px;
 }
 
-
+/* Footer formatting */
 footer {
     padding: 30px;
     clear: both;
